@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+</style>
+<script src=""></script>
+<body>
+    <img src="hanara+menu.jpg" alt="LA">
+</body>
+</html>
+
+<style>    
+    body {
+      margin: 0;
+      background-color: beige;
+      height: 100%;
+      width: 100%;
+    }
+
+   
+
+    /* Portrait mode: fill height */
+    @media (orientation: portrait) {
+      img {
+        max-height: 100dvh;
+        overflow-x: scroll;
+      }
+    }
+
+    /* Landscape mode: fill width */
+    @media (orientation: landscape) {
+      img {
+        max-width: 100dvw;
+        overflow-y: scroll;
+      }
+    }
+</style>
