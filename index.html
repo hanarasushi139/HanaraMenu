@@ -8,7 +8,7 @@
 </style>
 <script src=""></script>
 <body>
-    <img src="HanaraMenu-1.png" alt="Sushi Menu">
+    <img id = "first" src="HanaraMenu-1.png" alt="Sushi Menu">
     <img src="HanaraMenu-2.png" alt="Sushi Menu">
 </body>
 </html>
@@ -21,7 +21,11 @@
       width: 100%;
     }
 
-   
+   #first {
+        display: block;
+      border-bottom: 2px solid black; /* Change thickness and color as needed */
+      margin-bottom: 10px; /* Optional spacing below the border */
+   }
 
     /* Portrait mode: fill height */
     @media (orientation: portrait) {
